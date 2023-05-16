@@ -17,16 +17,20 @@ file.writeallbytes serve per scrivere
 ## Creazione passo passo
 1. Aprire Visual Studio e creare un nuovo progetto MAUI (App .NET MAUI
  ![creazione MAUI](https://github.com/Sateoo/GUIDb/blob/main/salvi.matteo.4h.GUIDb/salvi.matteo.4h.GUIDb/immagini/creazione%20MAUI.png)
-2. aggiungere il file [chinook.db](https://github.com/Sateoo/GUIDb/blob/main/README.md#prerequisiti) alla cartella Raw
+#
+2. Aggiungere il file [chinook.db](https://github.com/Sateoo/GUIDb/blob/main/README.md#prerequisiti) alla cartella Raw
   * ![Raw](https://github.com/Sateoo/GUIDb/blob/main/salvi.matteo.4h.GUIDb/salvi.matteo.4h.GUIDb/immagini/Raw.png)
- * nelle proprietà mettere copia sempre
+ * Nelle proprietà mettere copia sempre
   * ![copia sempre](https://github.com/Sateoo/GUIDb/blob/main/salvi.matteo.4h.GUIDb/salvi.matteo.4h.GUIDb/immagini/copia%20sempre.png)
+#
 3. Installare l'enstensione [sqlite-net-pcl](https://github.com/Sateoo/GUIDb/blob/main/README.md#prerequisiti)
+#
 4. Creare la classe Record.cs
- * tasto destro sul nome del progetto tasto sinistro su aggiungi e tasto sinistro su classe
+ * Tasto destro sul nome del progetto tasto sinistro su aggiungi e tasto sinistro su classe
  ![aggiungi classe](https://github.com/Sateoo/GUIDb/blob/main/salvi.matteo.4h.GUIDb/salvi.matteo.4h.GUIDb/immagini/aggiungi%20classe.png)
- * chiamare la classe Record.cs e aggiungerla
+ * Chiamare la classe Record.cs e aggiungerla
  ![classe](https://github.com/Sateoo/GUIDb/blob/main/salvi.matteo.4h.GUIDb/salvi.matteo.4h.GUIDb/immagini/classe.png)
+#
  5. Nella classe Recors.cs scrivere
  ```
 using System;
@@ -66,6 +70,7 @@ namespace salvi.matteo._4h.GUIDb
 }
  ```
  Fare attenzione al namespace che và cambiato col nome del proprio progetto
+#
 6. In MainPage.xaml scrivere
 ```
 <Window x:Class="salvi.matteo._4h.GUIDb.MainWindow"
@@ -88,6 +93,7 @@ namespace salvi.matteo._4h.GUIDb
 </Window>
 ```
 Fare attenzione a x:Class e xmlns:local dove va cambiato il nome del progetto col proprio
+#
 7. In MainPage.xaml.cs scrivere
 ```
 using System;
