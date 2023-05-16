@@ -31,7 +31,7 @@ file.writeallbytes serve per scrivere
  * Chiamare la classe Record.cs e aggiungerla
  ![classe](https://github.com/Sateoo/GUIDb/blob/main/salvi.matteo.4h.GUIDb/salvi.matteo.4h.GUIDb/immagini/classe.png)
 #
- 5. Nella classe Recors.cs scrivere
+ 5. Nella classe Recors.cs scrivere:
  ```
 using System;
 using System.Collections.Generic;
@@ -71,7 +71,7 @@ namespace salvi.matteo._4h.GUIDb
  ```
  Fare attenzione al namespace che và cambiato col nome del proprio progetto
 #
-6. In MainPage.xaml scrivere
+6. In MainPage.xaml scrivere:
 ```
 <Window x:Class="salvi.matteo._4h.GUIDb.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -94,7 +94,7 @@ namespace salvi.matteo._4h.GUIDb
 ```
 Fare attenzione a x:Class e xmlns:local dove va cambiato il nome del progetto col proprio
 #
-7. In MainPage.xaml.cs scrivere
+7. In MainPage.xaml.cs scrivere:
 ```
 using System;
 using System.Collections.Generic;
