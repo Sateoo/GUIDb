@@ -18,9 +18,9 @@ file.writeallbytes serve per scrivere
 1. Aprire Visual Studio e creare un nuovo progetto MAUI (App .NET MAUI
  ![creazione MAUI](https://github.com/Sateoo/GUIDb/blob/main/salvi.matteo.4h.GUIDb/salvi.matteo.4h.GUIDb/immagini/creazione%20MAUI.png)
 2. aggiungere il file [chinook.db](https://github.com/Sateoo/GUIDb/blob/main/README.md#prerequisiti) alla cartella Raw
- ![Raw](https://github.com/Sateoo/GUIDb/blob/main/salvi.matteo.4h.GUIDb/salvi.matteo.4h.GUIDb/immagini/Raw.png)
+  ![Raw](https://github.com/Sateoo/GUIDb/blob/main/salvi.matteo.4h.GUIDb/salvi.matteo.4h.GUIDb/immagini/Raw.png)
  * nelle proprietà mettere copia sempre
- ![copia sempre](https://github.com/Sateoo/GUIDb/blob/main/salvi.matteo.4h.GUIDb/salvi.matteo.4h.GUIDb/immagini/copia%20sempre.png)
+  ![copia sempre](https://github.com/Sateoo/GUIDb/blob/main/salvi.matteo.4h.GUIDb/salvi.matteo.4h.GUIDb/immagini/copia%20sempre.png)
 3. Installare l'enstensione [sqlite-net-pcl](https://github.com/Sateoo/GUIDb/blob/main/README.md#prerequisiti)
 4. Creare la classe Record.cs
  * tasto destro sul nome del progetto tasto sinistro su aggiungi e tasto sinistro su classe
